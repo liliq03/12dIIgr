@@ -24,5 +24,9 @@ namespace GitExercise
         {
             Console.WriteLine($"{a} - {b} = {a - b}");
         }
+        public static void Delene(double a, double b)
+        {
+            Console.WriteLine($"{a} / {b} = {a / b}");
+        }
     }
 }

@@ -29,11 +29,17 @@ namespace GitExercise
                 case "a":
                     OptionsManager.Add(a, b);
                     break;
+
                 case "s":
                     OptionsManager.Subtract(a, b);
                     break;
+
                 case "m":
                     OptionsManager.Multiply(a, b);
+                    break;
+
+                case "d":
+                    OptionsManager.Add(a, b);
                     break;
             }
 
